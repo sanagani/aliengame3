@@ -8,17 +8,17 @@ var reload, gameover,play;
 var poisonGroup, poison, poisonImg;
 
 function preload(){
-  backgroundImg = loadImage("./Assets/scifi_wallpaper.png")
-  fireboltImg = loadImage("./Assets/firebolt.png")
-  spaceShipImg = loadImage("./Assets/spaceship.png")
-  astronautImg = loadImage("./Assets/astro_falling.png")
-  astronautImg2 = loadImage("./Assets/astro_fighting.png")
-  alienShipImg = loadImage("./Assets/alien_ship.png")
-  alienImg = loadImage("./Assets/alien.png")
-  poisonImg = loadImage("./Assets/poison.png")
-  reloadImg = loadImage("./Assets/reload.png")
-  gameOverImg = loadImage("./Assets/gameover.png")
-  playImg = loadImage("./Assets/play_button.png")
+  backgroundImg = loadImage("Assets/scifi_wallpaper.png")
+  fireboltImg = loadImage("Assets/firebolt.png")
+  spaceShipImg = loadImage("Assets/spaceship.png")
+  astronautImg = loadImage("Assets/astro_falling.png")
+  astronautImg2 = loadImage("Assets/astro_fighting.png")
+  alienShipImg = loadImage("Assets/alien_ship.png")
+  alienImg = loadImage("Assets/alien.png")
+  poisonImg = loadImage("Assets/poison.png")
+  reloadImg = loadImage("Assets/reload.png")
+  gameOverImg = loadImage("Assets/gameover.png")
+  playImg = loadImage("Assets/play_button.png")
 }
 
 function setup() {
